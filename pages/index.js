@@ -8,13 +8,23 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      
       <section className={utilStyles.headingMd}>
-       <p>I'm excited about the progress I've made so far and eager to delve deeper into more advanced topics 
-        while also considering how I can apply my knowledge to real-world knowledge</p>
-        <p>Were trying to build a website hardware engineering, software development, and system analysis</p>
+        
+        <p>Introduce yourself.  What are your hobbies, favourite music, favourite food, and other things about yourself.</p>
+        <p></p>
+        <p className='answer'>I am Carmela Sunga and my hobbies are driving an airplane, eating whole menu of Jollibee and I like to spend my vacation out country.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        Why did you take up IT?
+        </p>
+        <p className='answer'>
+          Because my mother said that IT will take over the jobs in the future and we will be visited by aliens.
+        </p>
+        <p>
+        What career do you see yourself exploring after graduation.
+        </p>
+        <p className='answer'>
+          I want to be an engineer that have a vacation for 11 months and will work for a month every year.
         </p>
       </section>
     </Layout>
