@@ -6,11 +6,21 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  overflow-y: hidden;
+
+  background-image: url(../public/images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+
+  background-color: #ffffff28;
 }
 
 * {
   box-sizing: border-box;
 }
+
+
 
 a {
   color: #0070f3;
@@ -25,3 +35,14 @@ img {
   max-width: 100%;
   display: block;
 }
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.answer {
+  font-weight: 600;
+  font-size: 14px;
+}
+
